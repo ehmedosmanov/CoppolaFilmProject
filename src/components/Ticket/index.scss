@@ -1,0 +1,56 @@
+.ticket-content {
+  background-color: #d2cab9;
+  margin-bottom: 18px;
+  .leftside-ticket {
+    padding: 39px 20px 39px 34px;
+    border-right: 1px dashed #949595;
+    .ticket-title {
+      font-size: 25px;
+    }
+    .ticket-info {
+      padding: 30px 0;
+      font-size: 18px;
+    }
+
+    .additional-info {
+      border-top: 1px solid #949595;
+      padding-top: 10px;
+    }
+  }
+
+  .rightside-ticket {
+    position: relative;
+    padding: 39px 20px 39px 34px;
+
+    .circle {
+      background-color: #eaa57f;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 15px;
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+    }
+
+    .buy {
+      position: absolute;
+      border-top: 1px solid #949595;
+      padding-top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 60px;
+    }
+  }
+  &.dark {
+    background-color: #000;
+    color: #fff;
+  }
+  &.pack {
+    background-color: #f3f3f3;
+    .circle {
+      background-color: var(--primary-color);
+    }
+  }
+}

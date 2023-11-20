@@ -1,0 +1,111 @@
+#mobile-nav {
+  .mobile-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: #000;
+  }
+  .logo {
+    max-width: 120px;
+  }
+
+  .mobile-nav {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    max-height: 0px;
+    padding: 34px 7%;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    transform: scaleY(0);
+    transition: all 0.4s;
+    .mobile-nav-items {
+      color: #fff;
+      .mobile-nav-item {
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .dropdown {
+        font-size: 14px;
+        padding-top: 0px;
+        overflow: hidden;
+        opacity: 0;
+        max-height: 0px;
+        transform: translateY(-20px);
+        transition: all 0.3s ease;
+        &.active {
+          max-height: 200px;
+          opacity: 1;
+          transform: translateY(0px);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      transform: scaleX(1);
+      max-height: 100%;
+      transition: all 0.4s;
+    }
+  }
+
+  .menu-btn {
+    color: #fff;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .menu-btn__burger {
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.3s ease;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+      transition: all 0.3s ease;
+      transform: translateY(-8px);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+      transition: all 0.3s ease;
+      transform: translateY(8px);
+    }
+  }
+  .menu-btn.open {
+    .menu-btn__burger {
+      background: transparent;
+      box-shadow: none;
+      &::before {
+        transform: rotate(45deg);
+      }
+      &::after {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  .rotate {
+    transform: rotate(90deg);
+    transition: all 0.3s;
+  }
+}

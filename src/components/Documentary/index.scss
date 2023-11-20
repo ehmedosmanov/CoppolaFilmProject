@@ -1,0 +1,32 @@
+#documentary {
+  color: #fff;
+  background-image: url('https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-bg-img1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .documentary-content {
+    padding-top: 60px;
+  }
+  .elementor-video {
+    max-width: 100%;
+  }
+  .best-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #e99494;
+    h2 {
+      font-size: 52px;
+      padding: 15px 0;
+    }
+    p {
+      font-size: 25px;
+      padding-bottom: 21px;
+    }
+    .best {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+  }
+}

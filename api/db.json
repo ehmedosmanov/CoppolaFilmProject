@@ -1,0 +1,154 @@
+{
+  "trailers": [
+    {
+      "id": 1,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-1.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-2.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-3.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-4.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-5.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    },
+    {
+      "id": 6,
+      "title": "Flora",
+      "director": "Hodor Norway",
+      "country": "Norway",
+      "img": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/port-single-home-4-6.jpg",
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home3-video2.mp4"
+    }
+  ],
+  "festivals": [
+    {
+      "id": 1,
+      "date": "07 MAY",
+      "title": "THE PIANO TEACHER",
+      "times": ["1:00", "15:00", "19:30"]
+    },
+    {
+      "id": 2,
+      "date": "07 MAY",
+      "title": "THE SONGS OF MY FATHER",
+      "times": ["11:00", "15:00", "19:30"]
+    },
+    {
+      "id": 3,
+      "date": "08 MAY",
+      "title": "STRAWBERRIES",
+      "times": ["11:00", "15:00", "19:30"]
+    },
+    {
+      "id": 4,
+      "date": "09 MAY",
+      "title": "THE STRANGE LOVE OF ANA & MARCO",
+      "times": ["11:00", "15:00", "19:30"]
+    }
+  ],
+  "popular-movies": [
+    {
+      "id": 1,
+      "title": "Countrey",
+      "price": 21,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-7.jpg",
+      "category": "Action",
+      "status": "sale"
+    },
+    {
+      "id": 2,
+      "title": "Perfect Edition",
+      "price": 51,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-6.jpg",
+      "category": "Comedy",
+      "status": "new"
+    },
+    {
+      "id": 3,
+      "title": "Gone",
+      "price": 45,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-9.jpg",
+      "category": "Drama",
+      "status": "sale"
+    },
+    {
+      "id": 4,
+      "title": "Home",
+      "price": 54,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-9.jpg",
+      "category": "Fantasy",
+      "status": "new"
+    },
+    {
+      "id": 5,
+      "title": "Balungan",
+      "price": 78,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-5.jpg",
+      "category": "Romance",
+      "status": null
+    },
+    {
+      "id": 6,
+      "title": "Double Life",
+      "price": 45,
+      "url": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-9.jpg",
+      "category": "Sci-Fi",
+      "status": null
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Action"
+    },
+    {
+      "id": 2,
+      "name": "Comedy"
+    },
+    {
+      "id": 3,
+      "name": "Drama"
+    },
+    {
+      "id": 4,
+      "name": "Fantasy"
+    },
+    {
+      "id": 5,
+      "name": "Romance"
+    },
+    {
+      "id": 6,
+      "name": "Sci-Fi"
+    }
+  ]
+}

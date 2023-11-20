@@ -1,0 +1,24 @@
+.right-side_magazine {
+  background-image: url('https://coppola.qodeinteractive.com/wp-content/uploads/2021/12/blog-list-h4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.content_magazine {
+  .left-side_magazine {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 75%;
+    button {
+      width: 50%;
+      margin-top: 25px;
+    }
+  }
+  h3 {
+    font-size: clamp(2.5rem, 2.1571rem + 0.9524vw, 2.75rem);
+  }
+}
